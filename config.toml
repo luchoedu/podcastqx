@@ -1,0 +1,59 @@
+# baseURL = "https://podcast.qudox.io"
+languageCode = "es"
+defaultContentLanguage = "es"
+
+title = "Qudox Podcast"
+ copyright = "Hecho con :red_heart: en Qudox"
+
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+   name = "Qudox Podcast"
+   image = "qx.jpg"  # path relative to static directory
+
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    { apple = { href = "https://podcasts.apple.com/us/podcast/marketing-de-la-nueva-era/id1612718295", text = "Apple Podcasts", target = "_blank" } },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+   { spotify = { href = "https://open.spotify.com/show/10MGA4K0cw84zjwUmIsSyh?si=IXriSx4EQMaYjfC5EkoSoQ", text = "Spotify", target = "_blank" } },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+  { youtube = { href = "https://www.youtube.com/channel/UCOtzdVBJ63jQfXIaHVBuCtg", text = "Youtube Channel", target = "_blank" } },
+ { link = { href = "https://qudox.io", text = "Website", target = "_blank" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
