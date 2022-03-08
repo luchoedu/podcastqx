@@ -49,8 +49,8 @@ disableKinds = ["taxonomy", "term"]
     # { twitch = "https://twitch.tv/username" },
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
-  { youtube = { href = "https://www.youtube.com/channel/UCOtzdVBJ63jQfXIaHVBuCtg", text = "Youtube Channel", target = "_blank" } },
- { link = { href = "https://qudox.io", text = "Website", target = "_blank" } },
+  { youtube = { href = "https://www.youtube.com/channel/UCOtzdVBJ63jQfXIaHVBuCtg", text = "Youtube", target = "_blank" } },
+ { link = { href = "https://qudox.io", text = "Web", target = "_blank" } },
   ]
 
 [module]
