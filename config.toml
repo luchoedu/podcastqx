@@ -16,7 +16,8 @@ disableKinds = ["taxonomy", "term"]
   links = [
     # { email = "mailto:hello@your_domain.com" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
-    { apple = { href = "https://podcasts.apple.com/us/podcast/marketing-de-la-nueva-era/id1612718295", text = "Apple Podcasts", target = "_blank" } },
+  { spotify = { href = "https://open.spotify.com/show/10MGA4K0cw84zjwUmIsSyh?si=IXriSx4EQMaYjfC5EkoSoQ", text = "Spotify", target = "_blank" } },
+ { apple = { href = "https://podcasts.apple.com/us/podcast/marketing-de-la-nueva-era/id1612718295", text = "Apple Podcasts", target = "_blank" } },
     # { codepen = "https://codepen.io/username" },
     # { dev = "https://dev.to/username" },
     # { discord = "https://discord.gg/invitecode" },
@@ -30,7 +31,6 @@ disableKinds = ["taxonomy", "term"]
     # { instagram = "https://instagram.com/username" },
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
-   { spotify = { href = "https://open.spotify.com/show/10MGA4K0cw84zjwUmIsSyh?si=IXriSx4EQMaYjfC5EkoSoQ", text = "Spotify", target = "_blank" } },
     # { lastfm = "https://lastfm.com/user/username" },
     # { linkedin = "https://linkedin.com/in/username" },
     # { mastodon = "https://mastodon.instance/@username" },
