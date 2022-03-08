@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
    name = "Qudox Podcast"
-   image = "qx.jpg"  # path relative to static directory
+   image = "qx.png"  # path relative to static directory
 
   links = [
     # { email = "mailto:hello@your_domain.com" },
